@@ -423,7 +423,7 @@ QRectF LeftStelBar::boundingRect() const
 
 QRectF LeftStelBar::boundingRectNoHelpLabel() const
 {
-	// Re-use original Qt code, just remove the help label
+	// Reuse original Qt code, just remove the help label
 	QRectF childRect;
 	for (auto* child : QGraphicsItem::childItems())
 	{
@@ -1032,7 +1032,7 @@ QRectF BottomStelBar::boundingRect() const
 
 QRectF BottomStelBar::boundingRectNoHelpLabel() const
 {
-	// Re-use original Qt code, just remove the help label
+	// Reuse original Qt code, just remove the help label
 	QRectF childRect;
 	for (const auto* child : QGraphicsItem::childItems())
 	{

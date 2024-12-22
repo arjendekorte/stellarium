@@ -965,7 +965,7 @@ private slots:
 	//! Ends the update process started with updateFromOnlineSources().
 	//! @todo I've kept the previous behaviour, which was to save the update to
 	//! temporary files and then read them. If we give up on the idea to
-	//! re-use them later when adding manually satellites, parseTleFile()
+	//! reuse them later when adding manually satellites, parseTleFile()
 	//! can be modified to read directly form QNetworkReply-s. --BM
 	void saveDownloadedUpdate(QNetworkReply* reply);
 	void updateObserverLocation(const StelLocation &loc);

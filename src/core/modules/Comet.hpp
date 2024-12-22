@@ -26,7 +26,7 @@
 /*! \class Comet
 	\author Bogdan Marinov, Georg Zotti (orbit computation enhancements, tails)
 
-	Some of the code in this class is re-used from the parent Planet class.
+	Some of the code in this class is reused from the parent Planet class.
 	\todo Implement better comet rendering (star-like objects, no physical body).
 	\todo (Long-term) Photo realistic comet rendering, see https://blueprints.launchpad.net/stellarium/+spec/realistic-comet-rendering
 	2013-12: GZ: New algorithms for position computation following Paul Heafner: Fundamental Ephemeris Computations (Willmann-Bell 1999).

@@ -281,7 +281,7 @@ void HelpDialog::updateHelpText(void) const
 	htmlText += q_("Stellarium Help").toHtmlEscaped();
 	htmlText += "</title></head><body>\n";
 
-	// WARNING! Section titles are re-used below!
+	// WARNING! Section titles are reused below!
 	htmlText += "<p align=\"center\"><a href=\"#keys\">" +
 		    q_("Keys").toHtmlEscaped() +
 		    "</a> &bull; <a href=\"#links\">" +
@@ -430,7 +430,7 @@ void HelpDialog::updateHelpText(void) const
 	// Regexp to replace {text} with an HTML link.
 	static const QRegularExpression a_rx("[{]([^{]*)[}]");
 
-	// WARNING! Section titles are re-used above!
+	// WARNING! Section titles are reused above!
 	htmlText += "<h2 id=\"links\">" + q_("Further Reading").toHtmlEscaped() + "</h2>\n";
 	htmlText += q_("The following links are external web links, and will launch your web browser:\n").toHtmlEscaped();
 

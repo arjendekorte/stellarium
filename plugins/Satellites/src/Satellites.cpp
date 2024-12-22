@@ -2669,7 +2669,7 @@ void Satellites::parseTleFile(QFile& openFile, TleDataHash& tleList, bool addFla
 	if (!openFile.isOpen() || !openFile.isReadable())
 		return;
 	
-	// Code mostly re-used from updateFromFiles()
+	// Code mostly reused from updateFromFiles()
 	int lineNumber = 0;
 	TleData lastData;
 

@@ -33,7 +33,7 @@
        Stellarium's default algorithm is not easily applied to asteroids);
 	 - support for minor planet numbers and IAU designations.
 
-	Some of the code in this class is re-used from the parent Planet class.
+	Some of the code in this class is reused from the parent Planet class.
   */
 class MinorPlanet : public Planet
 {

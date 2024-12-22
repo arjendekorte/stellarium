@@ -8031,7 +8031,7 @@ void AstroCalcDialog::calculateWutObjects()
 
 							if (!objectsList.contains(designation) && !designation.isEmpty())
 							{
-								starName = object->getNameI18n(); // Just re-use variable
+								starName = object->getNameI18n(); // Just reuse variable
 								if (starName.isEmpty())
 									starName = designation;
 
