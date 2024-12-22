@@ -146,7 +146,7 @@
 	2.3 Several implementations of IMCCE theories for planet and satellite
 	    movement by Johannes Gajdosik (MIT-style license,
 	    see the corresponding files for the license text)
-	2.4 The tessellation algorithms were originally extracted from the glues 
+	2.4 The tesselation algorithms were originally extracted from the glues 
 	    library version 1.4 Mike Gorchak <mike@malva.ua> (SGI FREE SOFTWARE
 	    LICENSE B).
 	2.5 OBJ loader in the Scenery3D plugin based on glObjViewer (c) 2007 

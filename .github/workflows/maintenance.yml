@@ -42,3 +42,19 @@ jobs:
       - name: Check CRLF line endings
         uses: erclu/check-crlf@v1
 
+  #
+  # See https://github.com/marketplace/actions/codespell-with-annotations
+  #
+  check-codespell:
+    name: "Check spellings"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Check spellings
+        uses: codespell-project/actions-codespell@v2
+        with:
+          # ignore the config/.../crd.go file as it's generated binary data that is edited elswhere.
+          skip: .git,*.ttf,*.jpg,*.png,*.po,*.pot,*.utf8,*.pdf,*.dat,*.svg,./src/external,./plugins/RemoteControl/webroot/js,./src/core/planetsephems,./data/org.stellarium.Stellarium.*
+          check_filenames: true
+          ignore_words_list: NED,ned,anonymus,anser,dout,ect,empress,fo,inout,lod,mane,nam,nd,ned,normaly,parana,regio,sav,ser,sting,subtiles,te,tesselate,tesselated,,tesselates,tht,ue
