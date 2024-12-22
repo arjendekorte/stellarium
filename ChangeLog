@@ -1103,7 +1103,7 @@ Fixed many bugs.
 0.9.1 [2008-01-17]
 Got rid of autoconf/automake (Hooray!)
 Fixed a grid RA labeling bug.
-Improved the plug-in managment.
+Improved the plug-in management.
 Fixed nebula names loading (bug #1740287)
 Recoded time methods based on Qt time function (this fixed bug #1740595, LANG=en_IN crash).
 Use the new Grid class by Guillaume Chéreau for NebulaMgr.
@@ -1115,7 +1115,7 @@ Fixed constellation art intensity bug (bug #1733482)
 Got rid of all wstreamstring and therefore don't require STLPort anymore for MinGW compilation.
 Added more command line options.
 Re-coded StelAppQt4 init and deinit to prevent GLContext errors.
-New config parameters for controlling star brigthness, size, color
+New config parameters for controlling star brightness, size, color
 Circles around telescope markers indicating ocular FOV
 Applied patches for bugs #1769632 (bad init in get_tm_from_Julian), #1769584 (NebulaMgr.cpp reports wrong name on error) and #1758435 (segfault)
 Fixed bug #1781617 (added altitude unit) and #1751366 (segfault when changing projection mode).
@@ -1134,7 +1134,7 @@ Local script directory is reread when enter TUI
 Inuit constellation art by Johan Meuris
 More sky cultures
 Large code reorganization into a modular structure based on StelModule, StelApp singleton and its "manager" classes providing services to the modules.
-Projection code cleaned and splitted into Mapping classes.
+Projection code cleaned and split into Mapping classes.
 Movement control code encapsulated into the MovementMgr module.
 Code cleaning and commenting.
 Sidereal day/week keystrokes (ALT -, ALT =, ALT [, ALT ]).
@@ -1193,12 +1193,12 @@ Alt-Az readout for selected object
 Changed font rendering system with new TTF compliant font adapted from the glGooey library.
 Integrated the use of wide characters for all translatable string and UI.
 Added a Translator class managing all translation in an Object Oriented way over gettext.
-Included many increadible patches from Johannes Gajdosik : Reimplemented faster and more accurate solutions for all planet computation (VSOP87A), moon (ELP82B), added Saturnian satellites (TASS17), added Uranus satellites (GUST86), Mars satellites (ESAPHODEI).
+Included many incredible patches from Johannes Gajdosik : Reimplemented faster and more accurate solutions for all planet computation (VSOP87A), moon (ELP82B), added Saturnian satellites (TASS17), added Uranus satellites (GUST86), Mars satellites (ESAPHODEI).
 The observer may be located on any planet (or satellite)
 Planet twilight zones are darker than bright zones of a planet (as it was already in 0.5.1)
 new projection types: stereographic (quite ok), spheric_mirror (just early alpha)
 Planet oblateness
-Splitted StelCore class into two separated classes : StelCore and StelApp.
+Split StelCore class into two separated classes : StelCore and StelApp.
 Added many new .po files for translation in more languages.
 Auto-scan available translations.
 Auto-scan available sku cultures.
@@ -1245,7 +1245,7 @@ TUI is now using gettext.
 Added some accented characters to spacefont.
 Fixed various typos and other bugs.
 Added a Loading Bar class.
-Started a code spring clean aiming at removing the design mistakes with the core class. The goal is to split the current stel_core into 2 classes, one being the actual core managing sky display, the other one stel_app will manage all I/O, parameters managment, UI, locales etc..Added fader on stars labels.
+Started a code spring clean aiming at removing the design mistakes with the core class. The goal is to split the current stel_core into 2 classes, one being the actual core managing sky display, the other one stel_app will manage all I/O, parameters management, UI, locales etc..Added fader on stars labels.
 Added loading bars for nebulae and stars loading.
 Corrected Sun rotational period.
 Added missing hipparcos stars to database.
@@ -1324,7 +1324,7 @@ Added experimentaly jupiter satellites.
 Improved object search and planets hints displaying.
 Created a new class to render daylight atmosphere, with a faster and better algorithm.
 Created a new class used to convert tone from high range luminance to CRT display luminance : the aim is to have an homogeneous luminance conversion to use with daylight sky as well as night sky and stars.
-Changed the configuration file parser. The new one is much more convenient. It is based on a library called iniparser made by N.Devillard. I made a c++ wraper (init_parser class).
+Changed the configuration file parser. The new one is much more convenient. It is based on a library called iniparser made by N.Devillard. I made a c++ wrapper (init_parser class).
 Re-made the old ui widget classes in a better way using functor callbacks and painters.
 Re-thinked and made all the interface. stel_ui is now correct object oriented code.
 Added a tab widget.
@@ -1337,15 +1337,15 @@ Improved optimization using gprof.
 Finally fixed the planet shaking bug!
 Updated fog and decor displaying (faster and nicer).
 Added a projector class which will handle different projection mode (fisheye, ortho etc..)
-Made a fisheye projection mode which override gl/glu functions so that 3D drawing occures in fisheye projection mode.
+Made a fisheye projection mode which override gl/glu functions so that 3D drawing occurs in fisheye projection mode.
 Added gravity font.
 Added many options in the configuration files.
-Made a class for landscapes managment. Handle fisheye projection and panoramic fisheye pictures projection. The landscapes are loaded from a file so that it's easy to add custom landscapes.
+Made a class for landscapes management. Handle fisheye projection and panoramic fisheye pictures projection. The landscapes are loaded from a file so that it's easy to add custom landscapes.
 Stellarium is now fully object oriented.
 Replaced most of the char* with c++ strings to prevent bugs.
 Added a full text user interface.
-Improved configuration managment.
-Added a class "observator" for observer managment : i.e. observer's position and locales managment for timezone and time formating.
+Improved configuration management.
+Added a class "observator" for observer management : i.e. observer's position and locales management for timezone and time formating.
 Improved the mouse selection of objects. The new algorithm is more intelligent.
 Updated all the nebulas textures with clearly copyrighted pictures (See credits in README). This will fix the debian Bug#198495.
 Re-made the graphical interface using tabs widgets etc..
