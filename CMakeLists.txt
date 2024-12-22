@@ -895,7 +895,7 @@ IF(WIN32)
      SET(ENABLE_WINDOWS_EXE_ICON 1 CACHE BOOL "Determine if it should try to embed the Stellarium icon in the Windows .exe file")
      IF(ENABLE_WINDOWS_EXE_ICON AND NOT RC_COMPILER_PATH)
           IF(NOT MSVC)
-               #The mingGW snapshot distributed with the Qt SDK has it under this name.
+               #The mingw snapshot distributed with the Qt SDK has it under this name.
                SET(RC_COMPILER_FILENAME "windres.exe")
                FIND_FILE(RC_COMPILER_PATH ${RC_COMPILER_FILENAME})
           ENDIF()

@@ -146,7 +146,7 @@
 	2.3 Several implementations of IMCCE theories for planet and satellite
 	    movement by Johannes Gajdosik (MIT-style license,
 	    see the corresponding files for the license text)
-	2.4 The tesselation algorithms were originally extracted from the glues 
+	2.4 The tessellation algorithms were originally extracted from the glues 
 	    library version 1.4 Mike Gorchak <mike@malva.ua> (SGI FREE SOFTWARE
 	    LICENSE B).
 	2.5 OBJ loader in the Scenery3D plugin based on glObjViewer (c) 2007 
@@ -756,7 +756,7 @@
 
 	License :
 		"Any and all materials published on the Earth Observatory are
-		freely available for re-publication or re-use, except where
+		freely available for re-publication or reuse, except where
 		copyright is indicated."
 
 2 License for the JPL planets images

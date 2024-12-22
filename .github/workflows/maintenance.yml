@@ -58,3 +58,4 @@ jobs:
           # ignore the config/.../crd.go file as it's generated binary data that is edited elswhere.
           skip: .git,*.png,*.jpg,*.woff,*.ttf,*.gif,*.ico,*.dat
           check_filenames: true
+          ignore_words_list: NED,ned

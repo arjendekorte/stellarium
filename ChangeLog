@@ -490,7 +490,7 @@ historical applications: experimental support of getting planetary positions fro
 - Added Miller Cylindrical Projection
 - Added updates and improvements in DSO and star catalogues (include initial 
   support of The Washington Double Star Catalog)
-- azimuth lines (also targetting geographic locations) in ArchaeoLines plugin	
+- azimuth lines (also targeting geographic locations) in ArchaeoLines plugin	
 - Many fixes and improvements...
 
 In addition, we prepared a new user guide.
@@ -604,7 +604,7 @@ Bugfix release with few new features.
 - Fixed: Speed issues when computing lots of comets (LP: #1350418)
 - Fixed: Spherical mirror distortion work correctly now (LP: #676260, #1338252)
 - Fixed: Location coordinates on the bottom bar displayed correctly now (LP: #1357799)
-- Fixed: Ecliptic coordinates for J2000.0 and grids diplayed correctly now (LP: #1366567, #1369166)
+- Fixed: Ecliptic coordinates for J2000.0 and grids displayed correctly now (LP: #1366567, #1369166)
 - Fixed: Rule for select a celestial objects (LP: #1357917)
 - Fixed: Loading extra star catalogs (LP: #1329500, #1379241)
 - Fixed: Creates spurious directory on startup (LP: #1357758)
@@ -965,7 +965,7 @@ Fixed:
 - a crash on Windows when exiting Stellarium after a search. (LP: #534674)
 - the Oculars plug-in not closing its SQL database on exit.
 - the last star catalog not being offered for download. (LP: #538291)
-- system clock running fast on some Windows systems using ACPI power managment (LP: #514184)
+- system clock running fast on some Windows systems using ACPI power management (LP: #514184)
 - the top labels of vertical grid lines not being displayed, and improper label rotation.
 - script engine was recoded thread-free, this fixes many script related bugs.
 - handling of negative/large dates in scripts.
@@ -1031,7 +1031,7 @@ Moved official plugins code into plugins/ and changed the cmake config so that t
 Re-coded the texture engine based on Qt loading features (Got rid of explicit libjpeg and libpng dependencies!).
 Allowed to first render the sky in a frame buffer.
 Moved the code related to viewport distortions into a new class StelViewportEffect based on frame buffer object.
-Added working cmake targets for compilig and runing unit tests.
+Added working cmake targets for compilig and running unit tests.
 Added a delay before making Simbad name lookup queries to avoid sending too many requests.
 Added the Aztec sky culture.
 Many minor fixes and optimizations.
@@ -1069,7 +1069,7 @@ Added log file for debugging output. Prepends system specs, such as memory and C
 Imported KdeWin32 code for POSIX emulation on Windows.
 Fixed build with Qt 4.5.
 Fixed full screen problems at init.
-Optimized VecXX contructors (no more default values).
+Optimized VecXX constructors (no more default values).
 Added translations for Albanian and Bosnian.
 Fixed many bugs.
 
