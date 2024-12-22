@@ -1513,6 +1513,6 @@ Fixed minor bugs and visuals.
 Fixed the bug for the selection, improve global performance, and continue to comment the code.
 
 0.3.3 [Before] :
-I succed to compile my program in linux and windows with the same sources files !
+I succeed to compile my program in linux and windows with the same sources files !
 I decided to share my source code in GPL.
 My code was yet free but not very "readable" so i will try to comment it in english, and to make a version file (this file) etc... I now have to read docs to produce a "standard GNU code"...
